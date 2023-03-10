@@ -1,0 +1,19 @@
+{
+  "name": "bank-system",
+  "version": "1.0.0",
+  "description": "sistema para cuentas bancarias",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "clear && nodemon --ignore '*.json' src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bank-system"
+  },
+  "author": "Montserrat Regalado",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
